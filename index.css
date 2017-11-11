@@ -139,7 +139,7 @@
     background-image:linear-gradient(
             rgba(43, 49, 55, 0.7),
             rgba(43, 49, 55, 0.7)
-    ), Url(/img/header1.jpg);
+    ), Url(https://cdn.rawgit.com/PriviteFiles/Files/85ec9f83/header1.jpg);
     background-repeat: no-repeat;
     background-color: #0277bd;
     background-size: cover;
