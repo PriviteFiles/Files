@@ -1,0 +1,251 @@
+.marketing {
+    margin-bottom: 30px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.marketing p {
+    text-align: justify;
+    line-height: 1.5;
+    font-size: 16px;
+}
+
+.marketing h2 {
+    font-size:24px;
+}
+
+.server-list-row{
+    border-top: 1px solid #eee;
+    padding-top: 30px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #eee;
+    padding-bottom:30px;
+}
+
+.server-list-info p {
+    font-size: 16px;
+}
+
+.server-list-info h2 {
+    color:rgb(0, 170, 170);
+    margin-top: 5px;
+}
+
+.server-list-info hr{
+        -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    -webkit-margin-start: 0;
+    -webkit-margin-end: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid #eee;
+}
+
+
+@media screen and (max-width: 767px) {
+    .table-responsive {
+        border: none;
+    }
+}
+
+#server-list-table .server-head-name,
+#server-list-table .server-item-name {
+    padding-left: 20px;
+}
+
+.server-stats {
+    justify-content:center;
+    align-items:center;
+    margin-bottom: 30px;
+    padding-bottom:30px;
+    border-bottom: 1px solid #eee;
+}
+
+.server-stats-box {
+    border: 1px solid #eee;
+    padding-top:10px;
+    padding-bottom:10px;
+    
+
+}
+
+.server-stats-box:hover h2 {
+    color: rgb(0, 170, 170);
+}
+
+.server-stats-box h2 {
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+.server-stats-box-main {
+    border: 2px solid #eee;
+    padding-top:10px;
+    padding-bottom:10px;
+    
+}
+
+.server-stats-box-main h2 {
+    color: rgb(0, 170, 170);
+    font-size:32px;
+}
+
+.server-stats-box-main p {
+    font-size:18px;
+}
+
+.twitter-vouch {
+    margin-bottom: 20px;
+}
+
+.twitter-vouch h2 {
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.slick-slide{
+        outline:0 !important;
+    border:none !important;
+    -moz-outline-style: none !important;
+    text-decoration: none !important;
+}
+
+.twitter-vouch i {
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+.twitter-vouch i:hover{
+    font-size: 32px;
+}
+
+.announcement-list {
+    list-style: none;
+    padding: 0px;
+}
+
+.announcement-list li {    }
+.announcement-list li:hover { background-color: #eee }
+.announcement-list li a { padding: 5px; display: block; }
+.announcement-list li a:hover { text-decoration: none }
+
+.masthead.main {
+    padding: 40px 0 80px;
+    margin-bottom: 0;
+    color: #fff;
+}
+
+#home-banner {
+    background-image:linear-gradient(
+            rgba(43, 49, 55, 0.7),
+            rgba(43, 49, 55, 0.7)
+    ), Url(/img/header1.jpg);
+    background-repeat: no-repeat;
+    background-color: #0277bd;
+    background-size: cover;
+}
+
+.jumbotron.main {
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    height: 400px;
+    overflow: hidden;
+    position: relative;
+    color: #fff;
+    text-align: center;
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#020031', endColorstr='#6d3353',GradientType=1 );
+}
+
+.join-now-btn{
+    width: 100%;
+    max-width: 140px;
+}
+
+.slider{
+    color: #000;
+}
+
+.carousel {
+    height: 480px;
+    overflow: hidden;
+    max-width: 100%;
+    width: 100%;
+}
+
+.carousel img {
+    min-height: 480px;
+    min-width: 950px;
+    width: 100%;
+}
+
+.bs-docs-social {
+    padding: 15px 0;
+    text-align: center;
+    background-color: none;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    margin-bottom: 50px;
+}
+
+.bs-docs-social-buttons {
+    margin-left: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style: none;
+    font-size:16px;
+}
+
+.bs-docs-social-buttons li {
+    display: inline-block;
+    padding: 5px 15px;
+}
+
+@media screen and (min-width: 992px) {
+    .masthead.main h1 {
+        font-size: 110px;
+    }
+}
+
+.masthead.main h1 {
+    font-size: 72px;
+    line-height: 1;
+    letter-spacing: -2px;
+}
+
+
+.jumbotron.main h1 {
+    font-size: 80px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    line-height: 1;
+}
+
+@media screen and (min-width: 992px) {
+    .masthead.main p {
+        font-size: 40px;
+    }
+}
+@media screen and (min-width: 768px) {
+    .masthead.main p {
+        font-size: 32px;
+    }
+}
+@media screen and (min-width: 480px) {
+    .masthead.main p {
+        font-size: 24px;
+    }
+}
+
+.masthead.main p {
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 1.25;
+}
+
+.jumbotron.main p {
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 30px;
+    margin-bottom: 30px;
+
+}
